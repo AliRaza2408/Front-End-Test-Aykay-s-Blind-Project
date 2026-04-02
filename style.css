@@ -1,7 +1,3 @@
-/* ===================================
-   MYBINDLE - Main Stylesheet
-   =================================== */
-
 /* --- CSS VARIABLES --- */
 :root {
   --brand-red: #FF5349;
@@ -22,7 +18,6 @@
   --radius-btn: 12px;
 }
 
-/* --- RESET & BASE --- */
 * {
   margin: 0;
   padding: 0;
@@ -768,6 +763,34 @@ h1, h2, h3, h4 {
 
 
 /* Tablet Portrait */
+@media (max-width: 660px) {
+  .nav {
+    display: block;
+    /* text-align: center; */
+  }
+
+  .nav-links {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .app-buttons {
+    display: block;
+    /* text-align: center; */
+    width: 200px;
+    margin: auto;
+  }
+
+  .app-btn {
+    margin-top: 20px;
+  }
+}
+
 @media (max-width: 1200px) {
   .section-padding {
     padding: 60px 0;
